@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="A local confectionary bakery">
+  <meta name="author" content="Reinard Cortez">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+  rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+  crossorigin="anonymous">
+
+  <!-- AOS Library-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+  <!-- Animate.css Library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <!-- Linked to "index.js"-->
+  <script src="../js/index.js"></script>
+
+  <!-- Font Awesome Icons-->
+  <script src="https://kit.fontawesome.com/b3e60212a5.js" crossorigin="anonymous"></script>
+
+  <!-- Linked to "style.css"-->
+  <link rel="stylesheet" href="../css/style.css">
+
+  <title>Bernie's Bakery</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+    <div class="container-fluid">
+      <div class="col-12">
+
+        <!-- Top Row-->
+        <div class="row align-items-end">
+          <div class="col">
+            <!-- The bakery brand -->
+            <a class="navbar-brand" href="index.html">
+              <img id="logo_header" class="logo" src="../assets/logo.png">
+            </a>
+          </div>
+
+          <div class="col">
+            <!-- Social media links-->
+            <div class="d-flex justify-content-end">
+              <a class="nav-link" href="#"><i class="fab fa-instagram" style="color:#833AB4"></i></a>
+              <a class="nav-link" href="#"><i class="fab fa-facebook" style="color:#4267B2"></i></a>
+              <a class="nav-link" href="#"><i class="fab fa-twitter" style="color:#1DA1F2"></i></a>
+              <!-- Button icon shows when collapsed -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+              aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- End of Top Row-->
+
+        <!-- Bottom Row-->
+        <div class="row justify-content-end">
+          <div class="col-12 py-0 my-0">
+            <!-- Links of the website-->
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../html/order.html">Order</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../html/gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../html/about_us.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../html/contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- End of Bottom Row-->
+      </div>
+    </div>
+  </nav>
+  <!-- End of Navbar-->
+
+  <!-- Start of Menu -->
+  <section style="background-color: #FFF4D5">
+    <!-- Start of Cakes -->
+    <section id="cake">
+      <div class="container-fluid">
+        <!-- Heading for Cakes -->
+        <div class="row">
+          <div class="col-lg-12">
+            <h3 style="text-decoration: underline">Cakes</h3>
+          </div>
+        </div>
+
+        <!-- Start of Cake listings-->
+        <div class="row row-cols-lg-5 row-cols-2 px-4">
+
+          <div class="card">
+            <img src="../assets/ube-cake1.jpg" class="card-img">
+            <div class="card-img-overlay">
+              <h4 class="card-title">Ube Cake</h4>
+              <p class="card-text">Made with Yam and the good stuff.</p>
+            </div>
+          </div>
+
+        </div>
+        <!-- End of Cake listings-->
+      </div>
+    </section>
+    <!-- End of Cakes -->
+
+    <hr>
+
+    <!-- Start of Rolls -->
+    <section id="roll">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3 style="text-decoration: underline">Rolls</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Rolls -->
+
+    <hr>
+
+    <!-- Start of Sweet Pastries -->
+    <section id="sweet_pastry">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3 style="text-decoration: underline">Sweet Pastries</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Sweet Pastries -->
+
+    <hr>
+
+    <!-- Start of Cold Desserts -->
+    <section id="cold_dessert">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3 style="text-decoration: underline">Cold Desserts</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Cold Desserts -->
+
+  </section>
+  <!-- End of Menu -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="container-fluid" style="background-color: #808080">
+      <div class="row align-items-center">
+        <div class="col-lg-6 text-center text-lg-start py-2">
+          <img class="logo" src="../assets/logo.png">
+        </div>
+        <div class="col-lg-6 text-center text-lg-end text-nowrap">
+          Bedford, Bedfordshire, MK40 1SQ | © 2021 Bernie's Bakery
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End of Footer-->
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <!--AOS JS-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true,
+      duration: 1250,
+    });
+  </script>
+</body>
+</html>
