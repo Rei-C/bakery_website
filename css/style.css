@@ -76,3 +76,8 @@ hr {
   margin-left: 50px;
   margin-right: 50px;
 }
+
+.card, .card-img {
+  height: 250px;
+  width: 250px;
+}
